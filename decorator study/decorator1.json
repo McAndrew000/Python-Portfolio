@@ -1,0 +1,51 @@
+{
+  "metadata": {
+    "kernelspec": {
+      "name": "python",
+      "display_name": "Python (Pyodide)",
+      "language": "python"
+    },
+    "language_info": {
+      "codemirror_mode": {
+        "name": "python",
+        "version": 3
+      },
+      "file_extension": ".py",
+      "mimetype": "text/x-python",
+      "name": "python",
+      "nbconvert_exporter": "python",
+      "pygments_lexer": "ipython3",
+      "version": "3.8"
+    }
+  },
+  "nbformat_minor": 5,
+  "nbformat": 4,
+  "cells": [
+    {
+      "id": "15b5400c-0a8f-4f9a-af79-9948bd0544f8",
+      "cell_type": "code",
+      "source": "#returns inner function\ndef hello(func):\n    #calls a function\n    #and prints Hello\n    def inner():\n        func()\n        print(\"Hello\")\n    return inner\n\n#prints Jerry\ndef name():\n    print(\"Jerry\")\n\n#defines obj as the 'hello'\n#function using 'name'\n#function as an argument\nobj = hello(name)\n\n#calls obj\nobj()\n\n#Simulates Uncle Leo\nfor i in \"uncleleo\":\n    obj()",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [
+        {
+          "name": "stdout",
+          "output_type": "stream",
+          "text": "Jerry\nHello\nJerry\nHello\nJerry\nHello\nJerry\nHello\nJerry\nHello\nJerry\nHello\nJerry\nHello\nJerry\nHello\nJerry\nHello\n"
+        }
+      ],
+      "execution_count": 12
+    },
+    {
+      "id": "61116148-63e7-4d1f-9761-e454dc67c494",
+      "cell_type": "code",
+      "source": "",
+      "metadata": {
+        "trusted": true
+      },
+      "outputs": [],
+      "execution_count": null
+    }
+  ]
+}
