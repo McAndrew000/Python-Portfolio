@@ -1,4 +1,4 @@
-Here, you can find my rootfinder, which determines the kind of function of a 3rd degree polynomial based on its coefficients.
+Here, you can find my rootfinder, which determines the roots and the kind of function of a 3rd degree polynomial based on its coefficients.
 A notebook form is available, though I have kept the original py-extension as well.
 
 I also have studies in functions, these being lambdas and decorator functions.
