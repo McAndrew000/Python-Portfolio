@@ -4,5 +4,5 @@ A notebook form is available, though I have kept the original py-extension as we
 I also have studies in functions, these being lambdas and decorator functions.
 
 The NYC Job project is to be part of a directory of code pertaining to Python data analysis techniques.
-Right now, most of the code either pertains to data exploration or a tutorial on the pandas groupby function by Mirsa Turp, seen here:
+Right now, most of the code either pertains to data exploration or a tutorial on the pandas groupby function by Misra Turp, seen here:
 https://www.youtube.com/watch?v=CObmzgGYtX8&list=PLM8lYG2MzHmSUPllay_D1mL2puWPILyV3&index=12
